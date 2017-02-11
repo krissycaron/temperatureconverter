@@ -1,4 +1,10 @@
 function toCelsius () {
+	if (())-32) * 5/9 ; {
+
+}	else {
+	
+}
+
 
 }
 
