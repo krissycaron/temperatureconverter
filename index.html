@@ -6,21 +6,19 @@
 	<link rel="stylesheet" type="text/css" href="./main.css">
 </head>
 	<body>
-		<form action="">
-			<div class="tempInput">
-			Temperature:<input type="text" name="temp">
-			<button type="button" name="submit" id="convertButton">Convert!</button>
-			</div>
-			<div class="radio">
-				Celsius to Fahrenheit<input type="radio" name="temp" checked="checked" id="ctof">
-				<br>	
-				Fahrenheit to Celsius<input type="radio" name="temp" id="ftoc">
-			</div>
-			<div id="conversion"></div>
-			<div class="clear">
-				<button type="button" name="submit" id="clearButton">Clear</button>
-			</div>
-		</form>
+		<div class="tempInput">
+		Temperature:<input type="text" id="userInput">
+		<button type="button" name="submit" id="convertButton">Convert!</button>
+		</div>
+		<div class="radio">
+			Celsius to Fahrenheit<input type="radio" name="temp" checked="checked" id="ctof">
+			<br>	
+			Fahrenheit to Celsius<input type="radio" name="temp" id="ftoc">
+		</div>
+		<div id="conversion"></div>
+		<div class="clear">
+			<button type="button" name="submit" id="clearButton">Clear</button>
+		</div>
 		<script type="text/javascript" src="./converter.js"></script>
 	</body>
 </html>
