@@ -9,17 +9,16 @@
 		<form action="">
 			<div class="tempInput">
 			Temperature:<input type="text" name="temp">
-			Convert!<input type="button" name="submit">
+			<button type="button" name="submit" id="convertButton">Convert!</button>
 			</div>
 			<div class="radio">
-				Celsius to Fahrenheit<input type="radio" name="CtoF">
-				Fahrenheit to Celsius<input type="radio" name="FtoC">
+				Celsius to Fahrenheit<input type="radio" name="temp" checked="checked" id="ctof">
+				<br>	
+				Fahrenheit to Celsius<input type="radio" name="temp" id="ftoc">
 			</div>
-			<div class="conversion">
-				Converted Temperature: <input type="text" name="conversion">
-			</div>
+			<div id="conversion"></div>
 			<div class="clear">
-				Clear Converted Temperature: <input type="button" name="clear">
+				<button type="button" name="submit" id="clearButton">Clear</button>
 			</div>
 		</form>
 		<script type="text/javascript" src="./converter.js"></script>
